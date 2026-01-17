@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Home"
-run/main_scene="uid://cd0t6dn70inqk"
+run/main_scene="uid://c6ekqsakg1kko"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
+
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
 
 [editor_plugins]
 
@@ -46,4 +51,5 @@ jump={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
